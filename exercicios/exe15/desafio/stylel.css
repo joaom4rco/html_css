@@ -1,0 +1,27 @@
+#messi{
+    background-color: darkblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#cr7 {
+    background-color: #00008a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gol {
+    background-color: rgb(0, 0, 138);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#video{
+    background-color: hsl(240, 100%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#neymar {
+    background-color: hsl(222, 50%, 72%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

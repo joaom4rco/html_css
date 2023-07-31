@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, rgb(225, 97, 97), rgba(35, 187, 91, 0.71));
+    text-align: center;
+}
+header {
+    background-color:rgba(63, 63, 217, 0.419) ;
+    box-shadow: 10px 10px 10px black;
+}
+
+#menu_principal {
+    width: 45px;
+    margin: auto;
+}
+#menu_principal:hover {
+    color: rgba(90, 209, 209, 0.722);
+}
+#menu_principal:active > a {
+    color: rgba(86, 223, 223, 0.736);
+}
+#menu_principal > a {
+    display: none;
+    color: black;
+    text-decoration: none; 
+}
+#menu_principal:hover > a {
+    display: block;
+}
+.link_do_titulo {
+    padding-left: 13px;
+    text-decoration: none;
+    color: rgb(81, 214, 119);
+}
+.link_do_titulo:active {
+    color: aqua;
+}
+img {
+    border-radius: 10px; 
+}
+main {
+    background-color: rgba(77, 216, 216, 0.641);
+    box-shadow: 2px 1px 5px black;
+}
+section {
+    background-image: linear-gradient(90deg, rgb(63, 63, 216), rgb(67, 218, 218));
+}
+article {
+    background-color: rgba(53, 152, 100, 0.685);
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+aside {
+    background-color: aquamarine;
+}
+#bola {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(90deg, rgb(23, 83, 102), blue);
+    border-radius: 50%;
+    margin: 10px auto;
+}

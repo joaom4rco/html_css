@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+h1 {
+    font: italic bolder 3em 'arial';
+}
+p {
+    font-family:'poppins';
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-style: italic;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family:'love';
+    src: url('../exe2/fonts/Filxgirl.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'noto sans hk';
+    font-size: 1em;
+    color: black;
+}
+h1 {
+    font-family:'love';
+    font-weight: normal;
+}

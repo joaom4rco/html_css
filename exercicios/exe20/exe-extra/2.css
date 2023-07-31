@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(90deg, rgba(180, 60, 60, 0.959), rgb(108, 242, 240), black );
+    text-align: center;
+}
+.corin:hover {
+    background-color: black;
+    color: white;
+}
+.corin > p {
+    display: none;
+   
+}
+.corin:hover > p {
+    display: block;
+    color: rgb(94, 0, 0);
+    background-color: green;
+
+}
+.ney:hover {
+    background-color: black;
+    color: white;
+}
+.ney > p {
+    display: none;
+}
+.ney:hover > p {
+    display: block;
+    color: rgb(255, 2, 158);
+    background-color: white;
+}
+
+img {
+    padding-top: 20px;
+}
+.neym {
+    width: 300px;
+    height: 250px;
+}
+.corin::before {
+    content: '⇒ ';
+}
+.corin::after {
+    content: '⇐';
+}

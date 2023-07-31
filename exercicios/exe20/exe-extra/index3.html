@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: italic bolder 1em arial;
+            background-image: linear-gradient(100deg, rgb(52, 247, 143), rgb(248, 60, 255));
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color:rgb(255, 34, 0) ;
+        }
+        div:hover {
+            color: blue;
+            background-color: rgb(122, 254, 131);
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: red;
+            background-color: black;
+        }
+        a::before {
+            content: '⇒ ';
+        }
+        a::after {
+            content: " ⇐";
+        }
+    </style>
+</head>
+<body>
+    <h1>eu gosto do ney</h1>
+    <div><a href="http://www.youtube.com/watch?v=TvmVibumIOs" target="_blank" rel="noopener noreferrer">video legal</a></div>
+    <div>eu nao sei de nada 
+        <p>tu sabe sim</p>
+    </div>
+</body>
+</html>

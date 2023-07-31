@@ -1,0 +1,24 @@
+#esconde:hover {
+    color: red;
+}
+#esconde > p {
+    display: none;
+}
+#esconde:hover > p {
+    display: block;
+    color: aqua;
+    background-color: blue;
+    width: 145px;
+}
+#mova:hover {
+    color: red;
+}
+#mova > p {
+    display: none;
+}
+#mova:hover > p {
+    display: block;
+    color: chartreuse;
+    background-color: black;
+    width: 145px;
+}
