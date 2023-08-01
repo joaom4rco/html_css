@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: 'Android';
-    src: url(/fontes/idroid.otf) format(opentype);
+    src: url(../fontes/idroid.otf) format(opentype);
     font-weight: normal;
 }
 :root {
@@ -37,20 +37,20 @@ header > h1 {
     font-size: 3em;
 }
 header > p {
-    margin: 20px auto;
+    margin: 0px auto;
     text-align: center;
     max-width: 400px;
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.3em;
-    padding: 0px 10px;
+    padding: 10px 0px 20px 0px;
 
 }
 header a {
-    color: white;
-    padding: 0px 10px;
+    color: var(--cor0);
+    padding: 0px 15px;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.3em;
     display: inline-block;
 }
 header a:hover {
