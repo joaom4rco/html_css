@@ -150,6 +150,7 @@ aside > h3 {
 aside > ul {
     list-style-position:inside;
     list-style-type: '\2714\00A0\00A0';
+    padding-left: 2px;
     columns: 2;
 }
 footer {
