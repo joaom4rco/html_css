@@ -36,13 +36,12 @@ div#semimagem {
 }
 div.imagem1 {
     position: relative;
-    height: 100vh;
-
 }
 div.p1 {
     font-family:'Sriracha', sans-serif ;
     font-size: 1.5em;
-    background-color: rgba(33, 32, 32, 0.666);
+    background-color: rgba(33, 32, 32, 0.407);
+    border-radius: 10px;
     color: white;
     max-width: 320px;
     padding-left: 20px;
@@ -68,10 +67,10 @@ div.imagem2 {
 div.p2 {
     font-family:'Sriracha', sans-serif ;
     font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.358);
+    background-color: rgba(0, 0, 0, 0.225);
     color: white;
     max-width: 320px;
-    
+    border-radius: 10px;
     padding-left: 20px;
     line-height: 60px;
 }
