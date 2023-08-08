@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'passionOne';
+    src: url(fonts/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: 'Sriracha' ;
+    src: url(fonts/Sriracha-Regular.ttf);
+}
+body {
+    background-image: linear-gradient(to right, pink, rgb(85, 85, 151));
+    overflow-x: hidden;
+}
+header.titulo {
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    padding: 30px 10px;
+    margin: -10px -10px 30px ;
+    width: 100%;
+
+}
+header h1 {
+    font-family: 'passionOne', sans-serif;
+    font-size: 10vw;
+    margin: auto;
+}
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#semimagem {
+    font-family:'Sriracha', sans-serif ;
+    padding-bottom: 0px;
+    font-size: 3vw;
+    font-weight: normal;
+    padding-left: 15px;
+}
+div.imagem1 {
+    position: relative;
+    height: 100vh;
+
+}
+div.p1 {
+    font-family:'Sriracha', sans-serif ;
+    font-size: 1.5em;
+    background-color: rgba(33, 32, 32, 0.666);
+    color: white;
+    max-width: 320px;
+    padding-left: 20px;
+    line-height: 60px;
+
+}
+section.imagem01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 50px 0px;
+    border-radius: 5px;
+
+}
+div.imagem2 {
+    position: relative;
+    height: 100vh;
+
+}
+div.p2 {
+    font-family:'Sriracha', sans-serif ;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.358);
+    color: white;
+    max-width: 320px;
+    
+    padding-left: 20px;
+    line-height: 60px;
+}
+section.imagem02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    padding: 50px 0px;
+    width: 100%;
+    border-radius: 5px;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-family:'Sriracha', sans-serif ;
+}
+footer a.insta {
+    text-decoration: none;
+    color: rgb(199, 34, 34);
+}
+footer a.insta:hover {
+    text-decoration: underline;
+}
+footer a.git {
+    text-decoration: none;
+}
+footer a.git:hover {
+    text-decoration: underline;
+}
