@@ -51,7 +51,7 @@ div.p1 {
 section.imagem01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
     width: 100%;
@@ -76,8 +76,9 @@ div.p2 {
 }
 section.imagem02 {
     background-image: url(imagens/background002.jpg);
+    background-image: ur;
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
     padding: 50px 0px;
