@@ -50,6 +50,7 @@ div.p1 {
 }
 section.imagem01 {
     background-image: url(imagens/background001.jpg);
+    background-color: aquamarine;
     background-position: right center;
     background-size: cover;
     background-repeat: repeat-y;
@@ -76,7 +77,7 @@ div.p2 {
 }
 section.imagem02 {
     background-image: url(imagens/background002.jpg);
-    background-image: ur;
+    background-color: aquamarine;
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
