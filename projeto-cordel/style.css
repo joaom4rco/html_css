@@ -53,7 +53,7 @@ section.imagem01 {
     background-color: aquamarine;
     background-position: right center;
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
     padding: 50px 0px;
@@ -80,7 +80,7 @@ section.imagem02 {
     background-color: aquamarine;
     background-position: center center;
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 50px 0px;
     width: 100%;
