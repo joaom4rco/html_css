@@ -9,6 +9,7 @@
 body {
     background-image: linear-gradient(to right, pink, rgb(85, 85, 151));
     overflow-x: hidden;
+    height: 100vh;
 }
 header.titulo {
     background-color: black;
@@ -29,23 +30,20 @@ header p {
 }
 div#semimagem {
     font-family:'Sriracha', sans-serif ;
-    padding-bottom: 0px;
+    padding-bottom: 5vh;
     font-size: 3vw;
     font-weight: normal;
     padding-left: 15px;
 }
-div.imagem1 {
-    position: relative;
-}
+
 div.p1 {
     font-family:'Sriracha', sans-serif ;
-    font-size: 1.5em;
+    font-size: 3vw;
     background-color: rgba(33, 32, 32, 0.407);
     border-radius: 10px;
     color: white;
-    max-width: 320px;
+    display: inline-block;
     padding-left: 20px;
-    line-height: 60px;
 
 }
 section.imagem01 {
@@ -60,20 +58,14 @@ section.imagem01 {
     border-radius: 5px;
 
 }
-div.imagem2 {
-    position: relative;
-    height: 100vh;
-
-}
 div.p2 {
     font-family:'Sriracha', sans-serif ;
-    font-size: 1.5em;
+    font-size: 3vw;
     background-color: rgba(0, 0, 0, 0.225);
     color: white;
-    max-width: 320px;
+    display: inline-block;
     border-radius: 10px;
     padding-left: 20px;
-    line-height: 60px;
 }
 section.imagem02 {
     background-image: url(imagens/background002.jpg);
