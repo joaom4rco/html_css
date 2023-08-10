@@ -50,10 +50,9 @@ div.p1 {
 section.imagem01 {
     background-image: url(imagens/background001.jpg);
     background-color: rgba(87, 80, 80, 0.579);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
     padding: 50px 0px;
     border-radius: 5px;
 
@@ -75,7 +74,6 @@ section.imagem02 {
     background-size: cover;
     background-attachment: fixed;
     padding: 50px 0px;
-    width: 100%;
     border-radius: 5px;
 }
 section {
