@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de teste</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(imagem/maxresdefault.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+            height: 100vh;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            text-align: center;
+            background-image: linear-gradient(to right, aqua, transparent);
+            font-size: 2.5em;
+            width: 930px;
+            margin: auto;
+            padding: 10px 0px;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            background-image: linear-gradient(to right, aqua, rgba(0, 0, 0, 0.392));
+            min-width: 320px;
+            position: relative;
+        }
+        caption {
+            background-image: linear-gradient(to right, rgb(0, 0, 0), transparent);
+            color: #fff;
+            font-size: 1.7em;
+            padding: 10px;
+        }
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+            font-size: 2em;
+            font-weight: bolder;
+            
+        }
+        thead > tr > th {
+            background-color: rgba(0, 0, 0, 0.489);
+            color: #fff;
+            position: sticky;
+            background-repeat: no-repeat;
+            top: -1px;
+            
+        }
+
+        tbody td:nth-child(2n) {
+            background-color: #7f797957;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 2em;
+        }
+        div.rebaixado {
+            color: red;
+            display: inline-block;
+        }
+        div.libertadores {
+            color: blue;
+            display: inline-block;
+        }
+        div.playoff {
+            color: rgba(0, 21, 255, 0.707);
+            display: inline-block;
+        }
+        div.sula {
+            color: #008000;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">classificação</th>
+                <th scope="col">p</th>
+                <th scope="col">j</th>
+                <th scope="col">v</th>
+                <th scope="col">e</th>
+                <th scope="col">d</th>
+                <th scope="col">gp</th>
+                <th scope="col">gc</th>
+                <th scope="col">sg</th>
+                <th scope="col">%</th>
+                <th scope="col">Últ.jogos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="libertadores">1</div> Botafogo</td>
+                <td>44</td>
+                <td>18</td>
+                <td>14</td>
+                <td>2</td>
+                <td>2</td>
+                <td>32</td>
+                <td>10</td>
+                <td>2</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td><div class="libertadores">2</div> Flamengo</td>
+                <td>31</td>
+                <td>18</td>
+                <td>9</td>
+                <td>4</td>
+                <td>5</td>
+                <td>30</td>
+                <td>23</td>
+                <td>7</td>
+                <td>57</td>
+            </tr><tr>
+                <td><div class="libertadores">3</div> Fluminense</td>
+                <td >31</td>
+                <td>18</td>
+                <td >9</td>
+                <td>4</td>
+                <td >5</td>
+                <td>24</td>
+                <td >17</td>
+                <td>7</td>
+                <td >57</td>
+            </tr><tr>
+                <td><div class="libertadores">4</div> Palmeiras</td>
+                <td >31</td>
+                <td>18</td>
+                <td >8</td>
+                <td>7</td>
+                <td >3</td>
+                <td>33</td>
+                <td >17</td>
+                <td>16</td>
+                <td >57</td>
+            </tr><tr>
+                <td><div class="playoff">5</div> Bragantino</td>
+                <td >31</td>
+                <td>18</td>
+                <td >8</td>
+                <td>7</td>
+                <td >3</td>
+                <td>26</td>
+                <td >16</td>
+                <td>10</td>
+                <td >57</57td>
+            </tr><tr>
+                <td><div class="playoff">6</div> Grêmio</td>
+                <td >30</td>
+                <td>17</td>
+                <td >9</td>
+                <td>3</td>
+                <td >5</td>
+                <td>26</td>
+                <td >22</td>
+                <td>4</td>
+                <td >58</td>
+            </tr><tr>
+                <td><div class="sula">7</div> Athletico-PR</td>
+                <td >28</td>
+                <td>18</td>
+                <td >8</td>
+                <td>4</td>
+                <td >6</td>
+                <td>26</td>
+                <td >22</td>
+                <td>4</td>
+                <td >51</td>
+            </tr><tr>
+                <td><div class="sula">8</div> Cuiabá</td>
+                <td >26</td>
+                <td>28</td>
+                <td >8</td>
+                <td>4</td>
+                <td>6</td> 
+                <td>21</td>
+                <td >19</td>
+                <td>3</td>
+                <td >2</td>
+                </tr><tr>
+                <td ><div class="sula">9</div> São Paulo</td>
+                <td >26</td>
+                <td >18</td>
+                <td >7</td>
+                <td >5</td>
+                <td >6</td>
+                <td >23</td>
+                <td >18</td>
+                <td >5</td>
+                <td >48</td>
+            </tr><tr>
+                <td><div class="sula">10</div>  Atlético-MG</td>
+                <td >24</td>
+                <td>18</td>
+                <td >6</td>
+                <td>6</td>
+                <td >6</td>
+                <td>21</td>
+                <td >17</td>
+                <td>4</td>
+                <td >44</td>
+            </tr><tr>
+                <td><div class="sula">11</div> Cruzeiro</td>
+                <td >24</td>
+                <td>18</td>
+                <td >6</td>
+                <td>6</td>
+                <td >6</td>
+                <td>19</td>
+                <td >15</td>
+                <td>4</td>
+                <td >44</td>
+            </tr><tr>
+                <td><div class="sula">12</div> Internacional</td>
+                <td >24</td>
+                <td>18</td>
+                <td >6</td>
+                <td>6</td>
+                <td >6</td>
+                <td>16</td>
+                <td >20</td>
+                <td>-4</td>
+                <td >44</td>
+            </tr><tr>
+                <td>13 Fortaleza</td>
+                <td >23</td>
+                <td>18</td>
+                <td >6</td>
+                <td>5</td>
+                <td >7</td>
+                <td>17</td>
+                <td >19</td>
+                <td>-2</td>
+                <td >42</td>
+            </tr><tr>
+                <td>14 Corinthians</td>
+                <td >20</td>
+                <td>17</td>
+                <td >5</td>
+                <td>5</td>
+                <td >7</td>
+                <td>17</td>
+                <td >20</td>
+                <td >18</td>
+                <td>39</td>
+            </tr><tr>
+                <td>15 Goiás</td>
+                <td>19</td>
+                <td>18</td>
+                <td>5</td>
+                <td>4</td>
+                <td>9</td>
+                <td>17</td>
+                <td>27</td>
+                <td>-10</td>
+                <td>35</td>
+            </tr><tr>
+                <td>16 Bahia</td>
+                <td>18</td>
+                <td>18</td>
+                <td>4</td>
+                <td>6</td>
+                <td>8</td>
+                <td >18</td>
+                <td>24</td>
+                <td>-6</td>
+                <td>33</td>
+            </tr><tr>
+                <td><div class="rebaixado">17</div> Santos</td>
+                <td>18</td>
+                <td>18</td>
+                <td>4</td>
+                <td>6</td>
+                <td>8</td>
+                <td>19</td>
+                <td>27</td>
+                <td>-8</td>
+                <td>33</td>
+            </tr><tr>
+                <td><div class="rebaixado">18</div> Coritiba</td>
+                <td>14</td>
+                <td>18</td>
+                <td>3</td>
+                <td>5</td>
+                <td>10</td>
+                <td>17</td>
+                <td>33</td>
+                <td>-16</td>
+                <td>25</td>
+            </tr><tr>
+                <td><div class="rebaixado">19</div> Vasco</td>
+                <td>12</td>
+                <td>17</td>
+                <td>3</td>
+                <td>3</td>
+                <td>11</td>
+                <td>13</td>
+                <td>28</td>
+                <td>-15</td>
+                <td>23</td>
+            </tr><tr>
+                <td><div class="rebaixado">20</div> América-MG</td>
+                <td>10</td>
+                <td>17</td>
+                <td>2</td>
+                <td>4</td>
+                <td>11</td>
+                <td>19</td>
+                <td>40</td>
+                <td>-21</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
