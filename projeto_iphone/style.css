@@ -28,9 +28,9 @@ section#telefone {
 iframe#tela {
     position: relative;
     left: 7%;
-    top: 13%;
-    height: 470px;
-    width: 268px;
+    top: 12%;
+    height: 478px;
+    width: 269px;
 }
 section#menu {
     float: right;
