@@ -1,0 +1,9 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+footer::after {
+    content: 'eu gosto de pão';
+}
+header ul { 
+    display: none;
+}
