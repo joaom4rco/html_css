@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino de formulários</title>
+</head>
+<body>
+    <form action="../cadastro.php" method="post" autocomplete="on">
+        <div>
+            <fieldset>
+                <legend>animes</legend>
+                <label for="ianime">qual seu anime favorito?</label><br>
+                <input type="checkbox" name="anime" id="ianime"><label for="ianime">one piece</label>
+                <input type="checkbox" name="anime" id="ianime"><label for="ianime">Dragon ball</label><input type="checkbox" name="anime" id="ianime"><label for="ianime">bleach</label><input type="checkbox" name="anime" id="ianime"><label for="ianime">Naruto</label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>onde você mora?</legend>
+                <label for="iest">estados</label>
+                <select name="estados" id="iest">
+                    <option value="">escolha</option>
+                    <optgroup label="Região nordeste">
+                        <option value="BA">Bahia</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <label for="itex">escreva aqui</label>
+            <textarea name="texto" id="itex" cols="30" rows="10" style="resize: none;" maxlength="3000"></textarea>
+        </div>
+
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>
