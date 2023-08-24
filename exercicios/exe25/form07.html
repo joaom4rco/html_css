@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+        div {
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="iest">estados</label>
+            <select name="estados" id="iest">
+                <option value="">escolha</option>
+                <optgroup label="Região nordeste">
+                <option value="BA">bahia</option>
+                <option value="PE">pernabunco</option>
+                <option value="PA">Paraiba</option>
+            </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="iprof">profissões</label>
+            <input type="text" name="prof" id="iprof" list="itsfrof">
+            <datalist id="itsfrof">
+                <option value="ADM">administrador</option>
+                <option value="DEV">Programador</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Mensagens</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" style="resize: none;"></textarea>
+        </div>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>

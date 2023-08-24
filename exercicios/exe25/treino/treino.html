@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Treinamento</h1>
+    <form action="../cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="itreino">Nome:</label>
+            <input type="text" name="Treino" id="itreino"  minlength="5" maxlength="35" size="15" placeholder="seu nome" autocomplete="username" required>
+            <p>
+                <label for="inum">sua nota:</label>
+                <input type="number" name="num" id="inum" min="0" max="10" placeholder="0 a 10" step="0.1" value="5" required>
+            </p>
+            <label for="imes">mês que fez a prova:</label>
+            <input type="month" name="mes" id="imes" value="2023-08" required>
+        </p>
+        <p></p>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="LIMPAR">
+    </form>
+</body>
+</html>

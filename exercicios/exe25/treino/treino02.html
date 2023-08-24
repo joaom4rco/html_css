@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form > fieldset {
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+        form > fieldset > label {
+            line-height: 30px;
+        }
+        #submit > input {
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+    <title>treino de formulários</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on" enctype="">
+        <fieldset>
+            <legend>qual seu nome?</legend>
+            <label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required>
+        </fieldset>
+        <fieldset>
+            <legend>Seu sexo</legend>
+            <input type="radio" name="Sexo" id="imasc" required><label for="imasc">Masculino</label><br>
+            <input type="radio" name="Sexo" id="ifemi" required><label for="ifemi">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>qual é o seu anime favorito?</legend>
+            <input type="checkbox" name="anime" id="ione"><label for="ione">One piece</label><br>
+            <input type="checkbox" name="anime" id="idrag"><label for="idrag">Dragon ball</label><br>
+            <input type="checkbox" name="anime" id="inaru"><label for="inaru">Naruto</label><br>
+            <input type="checkbox" name="anime" id="iblea"><label for="iblea">Bleach</label><br>
+            <input type="checkbox" name="anime" id="ire"><label for="ire">Re:zero</label><br>
+            <input type="checkbox" name="anime" id="iblack"><label for="iblack">Black clover</label>
+        </fieldset>
+        <fieldset>
+            <legend>qual seu filme favorito?</legend>
+            <input type="checkbox" name="filme" id="ifilme"><label for="ifilme">de volta para o futuro</label>
+        </fieldset>
+        <p id="submit">
+            <input type="submit" value="ENVIAR">
+        </p>
+    </form>
+</body>
+</html>
