@@ -1,0 +1,31 @@
+@media screen and (min-width:700px) {
+    body {
+        
+    }
+    header {
+        padding-bottom: 10px;
+    }
+    .menu-icon {
+        display: none;
+    }
+    nav.menu {
+        display: block;
+    }
+    nav > ul {
+        background-color: rgba(128, 128, 128, 0.636);
+    }
+    nav > ul > li {
+        display: inline-block;
+    }
+    nav > ul > li > a {
+        background-color: rgba(15, 162, 221, 0.303);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    nav > ul > li > a:hover {
+        transition: all .5s ease;
+    }
+    main {
+        width: 70vw;
+    }
+}

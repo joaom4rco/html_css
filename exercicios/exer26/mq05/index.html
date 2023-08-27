@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+<body>
+    <header>
+        <h1>
+            Meu site 
+        </h1>
+        <div class="menu-icon">
+            <div class="menu-icon_line">
+                <span class="material-icons">menu</span>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+            <li><a href="#">opção 1</a></li>
+            <li><a href="#">opção 2</a></li>
+            <li><a href="#">opção 3</a></li>
+            <li><a href="#"> opção 4</a></li>
+            <li><a href="#">opção 5</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <article>
+            <h2>media query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ea consequuntur eveniet eum nihil aperiam. Repellat quia facere, illum sequi possimus consectetur iste vel, quidem quaerat, nihil alias dolorum veritatis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis veritatis, quisquam perferendis, repellat, deserunt nam fugiat eaque quaerat laborum optio architecto. In, facilis praesentium! Debitis ducimus eum error quod soluta.</p> <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium possimus provident natus laboriosam recusandae voluptatem! Dolorem vel voluptatem eum fugit repudiandae. Iusto, doloribus fugiat ad quae expedita natus facere suscipit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quo at cum aperiam ullam possimus illo unde minima, natus voluptas aliquam eveniet harum fugiat corporis dolor? Porro rem incidunt autem.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, voluptatem error neque labore harum exercitationem doloremque facilis laboriosam explicabo nemo reprehenderit sequi! Odio excepturi consectetur ipsam quidem explicabo modi placeat!</p>
+        </article>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded',function()
+        {
+            const menuicon = document.querySelector ('.menu-icon');
+            const menu = document.querySelector('.menu');
+            
+        menuicon.addEventListener('click',function() {
+        menu.classList.toggle('active');
+        });
+    })
+    </script>
+</body>
+</html>

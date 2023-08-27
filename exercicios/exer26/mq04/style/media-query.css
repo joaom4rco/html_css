@@ -34,7 +34,7 @@
     #tablet {display: block; margin: auto;}
     #print {display: none;} #pc { display: none;} #tv {display: none;}#phone {display: none;}
 }
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
     body {
         background: black url(../imagens/back-pc.jpg) no-repeat;
         background-size: cover;
@@ -43,7 +43,7 @@
     #tablet {display: none;}
     #print {display: none;} #pc { display: block; margin: auto;} #tv {display: none;}#phone {display: none;}
 }
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440x) {
     body {
         background: black url(../imagens/back-tv.jpg) no-repeat;
         background-size: cover;
