@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* verde:#49a09d 
+lilás: #5f2c82*/
 body, html {
     height: 100vh;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color:#5f2c82 ;
 }
 main {
     position: relative;
@@ -25,6 +27,9 @@ section {
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.666);
+
+    transition: width .2s, height .2s;
+    transition-timing-function: linear;
 
 }
 section #imagem {
@@ -56,12 +61,38 @@ p.input input {
     display: block;
     margin: auto;
     border: none;
-    background-color: rgb(75, 135, 115);
+    background-color:#49a09d ;
     color: rgb(219, 203, 203);
     width: 100%;
     cursor: pointer;
 }
+input {
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
 .esqueci-senha input {
     margin: 5px;
     padding: 8px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #49a09dc7;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+a > span {
+    position: absolute;
+    top: 86.5%;
+}
+a:hover {
+    text-decoration: none;
+    color: rgba(29, 29, 249, 0.886);
 }
