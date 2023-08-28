@@ -1,7 +1,4 @@
 @media screen and (min-width:700px) {
-    body {
-        
-    }
     header {
         padding-bottom: 10px;
     }
@@ -27,5 +24,6 @@
     }
     main {
         width: 70vw;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.44);
     }
 }

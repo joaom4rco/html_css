@@ -1,0 +1,46 @@
+@media screen and (min-width:520px) and (max-width: 930px) {
+    body {
+        background-color: black;
+    }
+
+    section {
+        display: flex;
+        width: 70vw;
+        height: 300px;
+    }
+    section #imagem {
+        height: 100%;
+    }
+    .logar input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:931px) {
+    body {
+        background-color: blue;
+    }
+    .input input {
+        display: block;
+        margin: auto;
+        width: 360px;
+    }
+    section {
+        display: flex;
+        width: 70vw;
+        height: 300px;
+
+    }
+    section #imagem {
+        position: absolute;
+        width: 30vw;
+        left: 60%;
+        height: 100%;
+    }
+    #texto, p {
+        text-align: left;
+        width: 400px;
+    }
+    .esqueci-senha input  {
+        width: 360px;
+    }
+}

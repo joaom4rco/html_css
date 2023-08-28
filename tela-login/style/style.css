@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.666);
+
+}
+section #imagem {
+    background: black url(../imagens/pexels-matheus-souza-3693599.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+#texto h1 {
+    text-align: center;
+    margin: 5px 0;
+}
+#texto p {
+    text-align: justify;
+    padding: 0 10px;
+    line-height: 1.5em;
+}
+
+p.input input {
+    padding: 8px;
+    margin: 5px;
+    display: block;
+}
+
+.logar input {
+    padding: 8px;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: rgb(75, 135, 115);
+    color: rgb(219, 203, 203);
+    width: 100%;
+    cursor: pointer;
+}
+.esqueci-senha input {
+    margin: 5px;
+    padding: 8px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<main>
+<section id="login">
+        <div id="imagem">
+        </div>
+    </div>
+    <div id="texto">
+        <h1>login</h1>
+        <p>Seja bem-vindo(a), faça login para acessar sua conta e poder fazer as configurações no seu perfil</p> 
+     <div id="formularios">
+    <form action="login.php" method="post" autocomplete="on">
+        
+        <p class="input">
+            <label for="ilogin"></label>
+            <input type="email" name="login" id="ilogin" autocomplete="email" placeholder="e-mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{a,}" required >
+        </p>
+        
+        <p class="input">
+            <label for="isenha"></label>
+            <input type="password" name="senha" id="isenha" placeholder="senha" min="8" max="15" autocomplete="new-password"required >
+        </p>
+
+    <div class="logar"><input class="submit" type="submit" value="Entrar">  
+    </div>
+    <p class="esqueci-senha">
+        <input type="text" name="login" id="ilogin" placeholder="esqueci minha senha">
+    </p>
+    </div>
+    </form> 
+</section>
+</main>
+</body>
+</html>
