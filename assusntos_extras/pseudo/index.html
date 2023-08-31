@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+        input:checked {
+            width: 50px;
+            height: 50px;
+        }
+        input:checked + p {
+            color: blue;
+        }
+        .not p:not(.ola) {
+            color: chartreuse;
+        }
+        div:not(.hightlight):not(.red):last-of-type {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="">clique aqui</label>
+        <input type="checkbox" name="" id="" checked>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab deleniti accusantium, quisquam amet ullam ipsum veniam libero hic consectetur animi velit quia neque cupiditate natus eaque at, quas veritatis totam.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reprehenderit voluptatum culpa? Labore nam, laudantium velit id harum voluptas porro. Omnis voluptas in veritatis nesciunt enim, officiis minus voluptatem quasi?
+    </p>
+    <div class="not">
+        <p>texto1</p>
+        <p class="ola">texto2</p>
+           </div>
+        <div class="nth">
+             <p class="hightlight">
+                olá mundo
+            </p>
+            <p>joggggg</p>
+            <p class="red">koe mane</p>
+            <p>ndjdjd</p>
+            <p>dldkdkdk</p>
+        </div>
+    
+    </div>
+    <div>
+        <ul>
+            <li>jogarei</li>
+            <li>jogarei</li>
+            <li>jogarei</li>
+            <li>jogarei</li>
+            <li>jogarei</li>
+            <li>jogarei</li>
+            <li>jogarei</li>
+            <li>jogarei</li>
+        </ul>
+    </div>
+</body>
+</html>

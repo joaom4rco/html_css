@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            height: 800px;
+        }
+        .item {
+            flex-grow: 1;
+            flex-basis: 360px;
+            color: #fff;
+            background-color: red;
+        }
+        .item:nth-child(1) {
+            flex: 1 1 360px;
+            background-image: linear-gradient(to right, rgb(94, 6, 6), transparent);
+            align-self: flex-end;
+            order: 4;
+        }
+        .item:nth-child(2) {
+            flex: 1 1 360px;
+            background-image: linear-gradient(to right, purple, transparent);
+            align-self: center;
+        }
+        .item:nth-child(3) {
+            flex: 4 1 360px;
+            background-image: linear-gradient(to right, blue, transparent);
+            align-self: flex-end;
+        }
+        .item:nth-child(4) {
+            flex: 4 1 360px;
+            background-image: linear-gradient(to right, rgb(133, 147, 42), transparent);
+            align-self: flex-start;
+
+        }.item:nth-child(5) {
+            flex: 15 1 360px;
+            background-image: linear-gradient(to right, rgb(59, 197, 52), transparent);
+            align-self: stretch;
+        }
+        .item:nth-child(6) {
+            flex: 20 1 360px;
+            background-image: linear-gradient(to right, rgb(41, 252, 182), transparent);
+            align-self: stretch;
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">um</div>
+        <div class="item">dois</div>
+        <div class="item">tres</div>
+        <div class="item">quatro</div>
+        <div class="item">cinco</div><div class="item">cinco</div>
+    </div>
+
+    
+</body>
+</html>

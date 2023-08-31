@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows:200px 1fr ;            
+            grid-template-areas: 'header header' 'nav main''footer footer';
+        }
+        .grid div:nth-child(1) {
+            background-color: red;
+            grid-area: header;
+            display: flex;
+            justify-content:space-between ;
+            align-items: center;
+        }
+        .grid div:nth-child(2) {
+            background-color: yellow;
+            grid-area: nav;
+        }
+        .grid div:nth-child(3) {
+            background-color: blue;
+            grid-area: main;
+
+        }
+        .grid div:nth-child(4) {
+            background-color: magenta;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div>
+            <h1>logo</h1>
+            <p>menu</p>
+            </div>
+            <div>
+                <ul>
+                <li>item</li>
+                <li>fgrgerg</li>
+                <li>grergerg</li>
+                <li>gregrg</li>
+                <li>gregrg</li></ul>
+            </div>
+            <div>
+                <h1>olá mundo</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque a id, beatae ea aliquam sunt velit cum enim! Deserunt quas nobis id suscipit quaerat, fuga optio quod consectetur. Magni, delectus!
+                Accusantium minus est neque sapiente vero delectus nisi, quam rem inventore molestias id iste ratione alias corporis ipsum culpa esse libero animi nobis perspiciatis impedit voluptate quas. Veritatis, placeat. Quae?
+                Exercitationem accusamus maiores cum nam quaerat repudiandae ullam culpa quidem quae. Accusamus, quibusdam commodi saepe eligendi eveniet velit iusto qui reiciendis unde, neque ratione! Laborum pariatur aliquid aut vero assumenda.
+                Quam aut laborum fuga reiciendis eum quis ut odio. Quibusdam eligendi ex cum saepe unde accusantium aperiam officia, quis voluptatum sit aut ut? Tenetur, quia optio magni expedita autem impedit.
+                Iusto dolore quae perspiciatis aut facere deleniti, ex sapiente tenetur pariatur ipsum magni, optio ullam provident veritatis cupiditate commodi eligendi! Pariatur, incidunt fugit illum atque deleniti modi magni eum expedita.</p>
+            </div>
+            <div><h1>footer</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia repellat voluptate veniam quod. Magni, voluptatibus? Eveniet, fuga soluta! Excepturi voluptate tempore molestias iure voluptates numquam hic exercitationem ipsam reprehenderit quisquam?</p></div>
+        </div>
+    </div>
+</body>
+</html>

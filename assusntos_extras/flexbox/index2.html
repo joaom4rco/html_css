@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100vw;
+            height: 100vh;
+        }
+        body {
+            background-color: aqua;
+        }
+        .headding {
+            background-color: black;
+            padding: 20px 0 30px 20px ;
+        }
+        .cabecalho h1 {
+            color: #fff;
+            padding: 10px 10px 0 0;
+        }
+        .conteudo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .conteudo a {
+            text-decoration: none;
+            border: 2px solid aqua;
+            border-radius: 10px;
+            padding: 8px;
+        }
+        .conteudo p {
+            color: #fff;
+        }
+        .conteudo p:hover {
+            color: aqua;
+            text-decoration: underline;
+            transition: all 1s ease;
+            transform: transition 8s;
+        }
+    </style>
+</head>
+<body>
+    <header class="headding">
+        <div class="cabecalho">
+            <h1>Meu site</h1>
+        </div>
+        <div class="container">
+            <div class="conteudo">
+                <a href="#">
+                    <p>Home</p>
+                </a><a href="#">
+                    <p>acesse</p>
+                </a><a href="#">
+                    <p>sua casa</p>
+                </a><a href="#">
+                    <p>+18</p>
+                </a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
